@@ -1,0 +1,209 @@
+"","gene","PMID36300619_CellMarkv2","GeneID"
+"1","11-Sep","H.Blood.Normal.PlasmacytoidDendriticCell.28428369",NA
+"856","ALDH family","H.Undefined.LungCancer.CancerStemCell.18525120",NA
+"857","ALDH family","H.Undefined.PancreaticCancer.CancerStemCell.21125672",NA
+"858","ALDH family","H.Undefined.Osteosarcoma.CancerStemCell.25940879",NA
+"859","ALDH family","H.PeripheralBlood.Normal.CirculatingProgenitorCell.23682163",NA
+"1089","ANKRD20A4","H.FetalGonad.Normal.MitoticArrestPhaseFetalGermCell.28457750",NA
+"1586","ARIH2OS","H.FetalKidney.Normal.NaturalKillerTNktCell.30093597",NA
+"1587","ARIH2OS","H.Lung.Normal.Slc16a7.Cell.30069046",NA
+"1944","ATP6AP1L","H.FetalGonad.Normal.OogenesisPhaseFetalGermCell.28457750",NA
+"2469","BMP family","H.Undefined.ColonCancer.CancerStemCell.27866420",NA
+"2689","C10orf126","H.SmallIntestine.Normal.SecretoryProgenitorCell.29802404",NA
+"2743","C15orf53","H.Liver.HepatocellularCancer.RegulatoryTTregCell.28622514",NA
+"2782","C19orf48","H.Esophagus.Normal.Fgfr1lownme5.EpithelialCell.29802404",NA
+"2783","C19orf48","H.EmbryonicPrefrontalCortex.Normal.NeuralProgenitorCell.29539641",NA
+"2784","C19orf48","H.FetalKidney.Normal.NaturalKillerTNktCell.30093597",NA
+"2785","C19orf48","H.FetalGonad.Normal.LeydigCell.28457750",NA
+"2786","C19orf48","H.FetalGonad.Normal.EndothelialCell.28457750",NA
+"2836","C1orf61","H.EmbryonicPrefrontalCortex.Normal.MicroglialCell.29539641",NA
+"2837","C1orf61","H.Brain.Normal.Astrocyte.27806376",NA
+"2838","C1orf61","H.EmbryonicPrefrontalCortex.Normal.Astrocyte.29539641",NA
+"2870","C20orf197","H.UmbilicalCordBlood.Normal.Lymphoid.PrimedMultipotentProgenitorCell.29167569",NA
+"2871","C20orf197","H.SmallIntestine.Normal.EnteroendocrineCell.29802404",NA
+"2874","C20orf78","H.SmallIntestine.Normal.EnteroendocrineCell.29802404",NA
+"2897","C2orf27A","H.Brain.Normal.Oligodendrocyte.27806376",NA
+"2908","C2orf91","H.Lung.Normal.Slc16a7.Cell.30069046",NA
+"2965","C5orf56","H.FetalKidney.Normal.NaturalKillerTNktCell.30093597",NA
+"2974","C6orf48","H.PeripheralBlood.Normal.NaiveCd4.TCell.28622514",NA
+"2975","C6orf48","H.Kidney.Normal.BCell.30093597",NA
+"2976","C6orf48","H.FetalGonad.Normal.LeydigPrecursorCell.28457750",NA
+"2977","C6orf48","H.PeripheralBlood.Normal.NaiveCd8.TCell.28622514",NA
+"2978","C6orf48","H.FetalGonad.Normal.MitoticFetalGermCell.28457750",NA
+"2979","C6orf48","H.FetalKidney.Normal.NaturalKillerTNktCell.30093597",NA
+"2980","C6orf48","H.UmbilicalCordBlood.Normal.MultilymphoidProgenitorCell.29167569",NA
+"2986","C6orf99","H.UmbilicalCordBlood.Normal.MultilymphoidProgenitorCell.29167569",NA
+"2997","C7orf65","H.Lung.Normal.Slc16a7.Cell.30069046",NA
+"2998","C7orf66","H.SmallIntestine.Normal.SecretoryProgenitorCell.29802404",NA
+"3001","C8orf44","H.Lung.Normal.Slc16a7.Cell.30069046",NA
+"3002","C8orf44","H.SmallIntestine.Normal.GobletCell.29802404",NA
+"3011","C9orf139","H.Lung.Normal.Slc16a7.Cell.30069046",NA
+"3120","Calponin family","H.Undefined.InfantileHemangiomas.Pericyte.24401806",NA
+"3121","Calponin family","H.Breast.Normal.MyoepithelialCell.26630681",NA
+"3122","Calponin family","H.SalivaryGland.Normal.MyoepithelialCell.20840670",NA
+"3230","CARD17","H.Liver.HepatocellularCancer.RegulatoryTTregCell.28622514",NA
+"3368","CCAT1","H.Embryo.Normal.PrimitiveEndodermCell.27062923",NA
+"3940","CD158 family","H.Undefined.Normal.NaturalKillerCell.Company",NA
+"3941","CD158 family","H.Undefined.Normal.NaturalKillerCell.Company",NA
+"3942","CD158 family","H.AdiposeTissue.Normal.NaturalKillerCell.25162225",NA
+"4785","CD3GCD33","H.BoneMarrow.Normal.HematopoieticCell.21551058",NA
+"5731","CEA family","H.Undefined.ColonCancer.CancerStemCell.27866420",NA
+"5732","CEA family","H.Undefined.RenalClearCellCarcinoma.EndothelialCell.25170899",NA
+"6280","CLECL1","H.Liver.HepatocellularCancer.ExhaustedCd8.TCell.28622514",NA
+"6281","CLECL1","H.Kidney.Normal.BCell.30093597",NA
+"6859","CRIPAK","H.Lung.Normal.Slc16a7.Cell.30069046",NA
+"6868","CRNDE","H.FetalGonad.Normal.MeioticProphaseFetalGermCell.28457750",NA
+"6869","CRNDE","H.UmbilicalCordBlood.Normal.Granulocyte.MonocyteProgenitor.29167569",NA
+"7347","CXL11","H.Undefined.Normal.Macrophage.Company",NA
+"7465","Cytokeratin family","H.Undefined.Normal.EpithelialCell.Company",NA
+"7466","Cytokeratin family","H.Undefined.Normal.EpithelialCell.Company",NA
+"8074","DNJB1","H.Brain.Normal.Astrocyte.27806376",NA
+"8133","Doublecortin family","H.Undefined.Normal.ImmatureNeuron.Company",NA
+"9158","ESRG","H.Embryo.Normal.EpiblastCell.27062923",NA
+"9368","FAM106A","H.Lung.Normal.Slc16a7.Cell.30069046",NA
+"9369","FAM106A","H.UmbilicalCordBlood.Normal.MultilymphoidProgenitorCell.29167569",NA
+"9438","FAM153C","H.Lung.Normal.Slc16a7.Cell.30069046",NA
+"9520","FAM231D","H.FetalKidney.Normal.NaturalKillerTNktCell.30093597",NA
+"9788","FCGR1B","H.EmbryonicPrefrontalCortex.Normal.MicroglialCell.29539641",NA
+"11494","Granzyme family","H.PeripheralBlood.Normal.NaturalKillerTNktCell.Company",NA
+"11721","H19","H.Liver.HepatocellularCarcinoma.LiverStemCell.20080086",NA
+"11982","HHLA3","H.Lung.Normal.Slc16a7.Cell.30069046",NA
+"12089","HLA Class I","H.Undefined.Normal.MesenchymalStemCell.Company",NA
+"12090","HLA class II","H.Lung.Normal.Macrophage.10092696",NA
+"12096","HLA-ABC family","H.AdiposeTissue.Normal.DedifferentiationAdipocyte.21548390",NA
+"12097","HLA-ABC family","H.AdiposeTissue.Normal.Adipose.DerivedStemCell.21548390",NA
+"12098","HLA-ABC family","H.BoneMarrow.Normal.MesenchymalStromalCell.29338788",NA
+"12099","HLA-ABC family","H.AmnioticFluid.Normal.StemCell.25880317",NA
+"12100","HLA-ABC family","H.Endometrium.Normal.StemCell.28761446",NA
+"12101","HLA-ABC family","H.Endometrium.Normal.MesenchymalStemCell.28761446",NA
+"12102","HLA-ABC family","H.EmbryonicStemCell.Normal.MesenchymalStemCell.22567895",NA
+"12103","HLA-ABC family","H.Foreskin.Normal.MesenchymalStemCell.22567895",NA
+"12104","HLA-ABC family","H.BoneMarrow.Normal.MesenchymalStemCell.22567895",NA
+"12184","HLA-DR family","H.Undefined.RenalClearCellCarcinoma.ImmuneCell.25170899",NA
+"12185","HLA-DR family","H.BoneMarrow.Normal.MesenchymalStemCell.19549397",NA
+"12186","HLA-DR family","H.PeripheralBlood.Normal.Cd16.DendriticCell.25799053",NA
+"12187","HLA-DR family","H.UmbilicalCord.Normal.MesenchymalStemCell.21925144",NA
+"12188","HLA-DR family","H.PeripheralBlood.Normal.MyeloidCell.25799053",NA
+"12189","HLA-DR family","H.Premolar.Normal.DentalPulpStemCell.26334535",NA
+"12190","HLA-DR family","H.Placenta.Normal.MesenchymalStemCell.24662208",NA
+"12191","HLA-DR family","H.Intestine.Normal.MyeloidDendriticCell.Company",NA
+"12192","HLA-DR family","H.Undefined.Normal.Leukocyte.25319788",NA
+"12193","HLA-DR family","H.PeripheralBlood.Normal.Monocyte.25799053",NA
+"12194","HLA-DR family","H.Blood.Normal.Eosinophil.26926492",NA
+"12195","HLA-DR family","H.EmbryonicStemCell.Normal.MesenchymalStemCell.22567895",NA
+"12196","HLA-DR family","H.Skin.Normal.MyeloidDendriticCell.Company",NA
+"12197","HLA-DR family","H.PeripheralBlood.Normal.ClassicalMonocyte.25799053",NA
+"12198","HLA-DR family","H.Undefined.Normal.Macrophage.Company",NA
+"12199","HLA-DR family","H.PeripheralBlood.Normal.IntermediateMonocyte.25799053",NA
+"12200","HLA-DR family","H.PeripheralBlood.Normal.SuppressiveMonocyte.25799053",NA
+"12201","HLA-DR family","H.BoneMarrow.Normal.MesenchymalStemCell.29137121",NA
+"12202","HLA-DR family","H.PeripheralBlood.Normal.Non.ClassicalMonocyte.25799053",NA
+"12203","HLA-DR family","H.Breast.Normal.ImmuneCell.22940915",NA
+"12204","HLA-DR family","H.FetalLiver.Normal.MesenchymalStemCell.15619334",NA
+"12205","HLA-DR family","H.PeripheralBlood.Normal.MonocyteDerivedDendriticCell.25799053",NA
+"12206","HLA-DR family","H.PeripheralBlood.Normal.Granulocyte.25799053",NA
+"12207","HLA-DR family","H.PeripheralBlood.Normal.Neutrophil.25799053",NA
+"12208","HLA-DR family","H.PeripheralBlood.Normal.Eosinophil.25799053",NA
+"12209","HLA-DR family","H.Lung.Normal.MyeloidDendriticCell.Company",NA
+"12210","HLA-DR family","H.Stomach.Normal.MyeloidDendriticCell.Company",NA
+"12211","HLA-DR family","H.PeripheralBlood.Normal.ImmatureMyeloidCell.25799053",NA
+"12212","HLA-DR family","H.Endometrium.Normal.MesenchymalStemCell.28761446",NA
+"12213","HLA-DR family","H.BoneMarrow.Normal.MesenchymalStemCell.22567895",NA
+"12214","HLA-DR family","H.Undefined.Normal.Fibroblast.25112013",NA
+"12215","HLA-DR family","H.NasalConcha.Normal.MesenchymalStromalCell.22588732",NA
+"12216","HLA-DR family","H.Blood.Normal.MyeloidDendriticCell.Company",NA
+"12217","HLA-DR family","H.Undefined.AcuteMyelogenousLeukemia.CancerStemCell.19016515",NA
+"12218","HLA-DR family","H.Foreskin.Normal.MesenchymalStemCell.22567895",NA
+"12219","HLA-DR family","H.Placenta.Normal.MesenchymalStromalCell.29108631",NA
+"12220","HLA-DR family","H.Undefined.Normal.FollicularBCell.Company",NA
+"12221","HLA-DR family","H.Blood.Normal.PlasmacytoidDendriticCell.Company",NA
+"12834","IgD family","H.BoneMarrow.Normal.T1TransitionalBCell.23731328",NA
+"12835","IgD family","H.BoneMarrow.Normal.T2TransitionalBCell.23731328",NA
+"12836","IgD family","H.PeripheralBlood.Normal.BCell.25799053",NA
+"12837","IgD family","H.PeripheralBlood.Normal.BCell.25187226",NA
+"12838","IgD family","H.Undefined.Normal.BCell.Company",NA
+"12839","IgD family","H.BoneMarrow.Normal.TransitionalBCell.23731328",NA
+"12840","IgD family","H.Undefined.Normal.FollicularBCell.Company",NA
+"12841","IgE family","H.Undefined.Normal.Basophil.Company",NA
+"12893","IgG family","H.PeripheralBlood.Normal.Monocyte.29579044",NA
+"12894","IgG family","H.Undefined.Normal.MemoryBCell.Company",NA
+"12895","IGHA2","H.Kidney.RenalCellCarcinoma.PlasmaCell.30093597",NA
+"12896","IGHG3","H.Kidney.RenalCellCarcinoma.PlasmaCell.30093597",NA
+"12897","IGHM","H.Kidney.Normal.BCell.30093597",NA
+"12899","IGKC","H.Kidney.RenalCellCarcinoma.PlasmaCell.30093597",NA
+"15130","LILRB4ITGAM","H.PeripheralBlood.Normal.Myeloid.DerivedSuppressorCell.29108995",NA
+"15131","LILRB4ITGAM","H.Undefined.Normal.Macrophage.Company",NA
+"15176","LINC00694","H.FetalKidney.Normal.Monocyte.30093597",NA
+"15177","LINC00694","H.Kidney.RenalCellCarcinoma.Neutrophil.30093597",NA
+"15178","LINC00694","H.Kidney.Normal.Neutrophil.30093597",NA
+"15264","LOC100129940","H.FetalGonad.Normal.GranulosaCell.28457750",NA
+"15265","LOC100130357","H.LargeIntestine.Normal.PanethCell.29802404",NA
+"15266","LOC100505549","H.FetalGonad.Normal.MitoticArrestPhaseFetalGermCell.28457750",NA
+"15267","LOC100506388","H.EmbryonicPrefrontalCortex.Normal.MicroglialCell.29539641",NA
+"15268","LOC388780","H.Esophagus.Normal.CiliatedEpithelialCell.29802404",NA
+"15269","LOC388780","H.Lung.Normal.CiliatedCell.30069046",NA
+"15270","LOC389831","H.Liver.HepatocellularCancer.RegulatoryTTregCell.28622514",NA
+"15581","LUZP6","H.PeripheralBlood.Normal.EffectorCd8.MemoryTTemCell.28622514",NA
+"16182","MDS2","H.Kidney.RenalCellCarcinoma.BCell.30093597",NA
+"16437","MHC class I","H.Endometrium.Normal.MesenchymalStemCell.28761446",NA
+"16438","MHC class I","H.Undefined.Normal.GlialCell.Company",NA
+"16439","MHC class II","H.Undefined.Normal.EpithelialCell.Company",NA
+"16440","MHC class II","H.Undefined.Normal.TCell.Company",NA
+"16441","MHC class II","H.BoneMarrow.Normal.MyeloidCell.Company",NA
+"16442","MHC class II","H.Undefined.Normal.BCell.Company",NA
+"16443","MHC class II","H.Undefined.Normal.DendriticCell.Company",NA
+"16444","MHC class II","H.Undefined.Normal.SpecialistAntigenPresentingCell.Company",NA
+"16445","MHC class II","H.Undefined.Normal.GlialCell.Company",NA
+"16446","MHC class II","H.Undefined.Normal.M1Macrophage.Company",NA
+"16447","MHC Class II","H.Lung.Normal.MyeloidDendriticCell.Company",NA
+"16448","MHC Class II","H.Intestine.Normal.MyeloidDendriticCell.Company",NA
+"16449","MHC Class II","H.Blood.Normal.PlasmacytoidDendriticCell.Company",NA
+"16450","MHC Class II","H.Skin.Normal.MyeloidDendriticCell.Company",NA
+"16451","MHC Class II","H.Blood.Normal.MyeloidDendriticCell.Company",NA
+"16452","MHC Class II","H.Stomach.Normal.MyeloidDendriticCell.Company",NA
+"16453","MHC Class II","H.Undefined.Normal.Macrophage.Company",NA
+"17113","MTRNR2L1","H.FetalKidney.Normal.Monocyte.30093597",NA
+"17114","MTRNR2L2","H.FetalGonad.Normal.GranulosaCell.28457750",NA
+"17115","MTRNR2L2","H.FetalGonad.Normal.SertoliCell.28457750",NA
+"17116","MTRNR2L6","H.FetalKidney.Normal.Monocyte.30093597",NA
+"17117","MTRNR2L8","H.FetalKidney.Normal.Monocyte.30093597",NA
+"17118","MTRNR2L8","H.FetalGonad.Normal.GranulosaCell.28457750",NA
+"17119","MTRNR2L8","H.Kidney.RenalCellCarcinoma.BCell.30093597",NA
+"17120","MTRNR2L8","H.FetalGonad.Normal.RetinoidAcidSignaling.ResponsiveFetalGermCell.28457750",NA
+"17121","MTRNR2L8","H.FetalKidney.Normal.NaturalKillerTNktCell.30093597",NA
+"17122","MTRNR2L8","H.FetalGonad.Normal.SertoliCell.28457750",NA
+"17123","MTRNR2L9","H.FetalGonad.Normal.SertoliCell.28457750",NA
+"17246","MYCNOS","H.Lung.Normal.Slc16a7.Cell.30069046",NA
+"17257","MYH family","H.Heart.Normal.Cardiomyocyte.Company",NA
+"17861","NF-kappa-B family","H.Undefined.Normal.GerminalCenterBCell.Company",NA
+"17889","NFE4","H.Kidney.RenalCellCarcinoma.Neutrophil.30093597",NA
+"17890","NFE4","H.Kidney.Normal.Neutrophil.30093597",NA
+"18957","P49715","H.Undefined.Normal.Basophil.Company",NA
+"18958","P49715","H.Liver.Normal.Hepatocyte.27909741",NA
+"19103","PART1","H.LargeIntestine.Normal.Prom1lowProgenitorCell.29802404",NA
+"19110","Patched family","H.Prostate.ProstateCancer.CancerStemCell.25940879",NA
+"20959","PRORY","H.Lung.Normal.Slc16a7.Cell.30069046",NA
+"23050","S100 family","H.Undefined.Normal.GlialCell.Company",NA
+"23051","S100 family","H.SalivaryGland.Normal.MyoepithelialCell.20840670",NA
+"24867","Solute carrier family 30","H.Pancreas.Normal.EndocrineCell.21947380",NA
+"25371","ST20","H.SmallIntestine.Normal.EnterocyteProgenitorCell.29802404",NA
+"25372","ST20","H.Kidney.RenalCellCarcinoma.Neutrophil.30093597",NA
+"26322","TGF-beta family","H.Undefined.Normal.THelper17Th17Cell.Company",NA
+"26323","TGF-beta family","H.Undefined.Normal.RegulatoryTTregCell.Company",NA
+"26324","TGF-beta family","H.Undefined.Normal.Neuron.Company",NA
+"26325","TGF-beta family","H.Undefined.Normal.THelper17Th17Cell.Company",NA
+"26326","TGF-beta family","H.Undefined.Normal.THelper9Th9Cell.Company",NA
+"26327","TGF-beta family","H.Undefined.Normal.RegulatoryTTregCell.Company",NA
+"27002","TMEM99","H.FetalKidney.Normal.NaturalKillerTNktCell.30093597",NA
+"27003","TMEM99","H.FetalGonad.Normal.MitoticArrestPhaseFetalGermCell.28457750",NA
+"27448","TRA-1-81","H.Undefined.Normal.InducedPluripotentStemCell.Company",NA
+"27536","TRBC2","H.Kidney.RenalCellCarcinoma.Cd8.TCell.30093597",NA
+"27537","TRBC2","H.Kidney.RenalCellCarcinoma.RegulatoryTTregCell.30093597",NA
+"27538","TRBC2","H.Kidney.RenalCellCarcinoma.THelperCell.30093597",NA
+"27556","TRGC2","H.Kidney.RenalCellCarcinoma.NaturalKillerTNktCell.30093597",NA
+"27953","TUBB7P","H.Embryo.Normal.4.CellStageCellBlastomere.23892778",NA
+"28030","TYMSOS","H.UmbilicalCordBlood.Normal.Granulocyte.MonocyteProgenitor.29167569",NA
+"28117","UBE2Q2L","H.FetalGonad.Normal.OogenesisPhaseFetalGermCell.28457750",NA
+"28590","VNN3","H.FetalKidney.Normal.Monocyte.30093597",NA
+"28591","VNN3","H.Lung.Normal.Slc16a7.Cell.30069046",NA
+"29331","ZNF286B","H.Liver.Normal.EndothelialCell.28614297",NA
