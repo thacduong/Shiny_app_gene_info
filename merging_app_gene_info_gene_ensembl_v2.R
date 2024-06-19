@@ -1,3 +1,4 @@
+#-----Load required libraries ----#
 library(dplyr)
 library(stringr)
 library(readr)
@@ -8,7 +9,7 @@ library(readr)
 file_path_gene_info = "/Users/Thacduong/Desktop/Shiny_app_gene_info-main/Homo_sapiens.gene_info.gz"
 file_path_gene2ensembl = "/Users/Thacduong/Desktop/Shiny_app_gene_info-main/gene2ensembl.gz"
 
-# load in gene_info
+# load in gene_info 
 gene_info <- read_delim(file_path_gene_info, delim = "\t", escape_double = FALSE, trim_ws = TRUE)
 gene_info = as.data.frame(gene_info)
 # Remove white space in Symbol column
@@ -17,22 +18,22 @@ View(head(gene_info))
 
 # load in gene2ensembl
 gene2ensembl <- read_delim(file_path_gene2ensembl, delim = "\t", escape_double = FALSE, trim_ws = TRUE)
-gene2ensembl = as.data.frame(gene2ensembl)
+gene2ensembl <- as.data.frame(gene2ensembl)
 View(head(gene2ensembl))
 # write.csv(gene2ensembl, file = "C:/Users/80026261/OneDrive - Moffitt Cancer Center/Desktop/Shiny_app_gene_info/gene2ensembl.csv", row.names = F)
 
 # ----- generate a big merged protein coding annotation table -----
-big_table = merge(gene_info, gene2ensembl, by = "GeneID", all = T) # added "all = T" to this part for keeping all the Protein Coding Gene
+big_table <- merge(gene_info, gene2ensembl, by = "GeneID", all = T) # added "all = T" to this part for keeping all the Protein Coding Gene
 colnames(big_table)[which(colnames(big_table) == "Symbol")] <- "gene" # changed the col name from "Symbol" to "gene" 
-big_table_filtered = big_table[big_table$type_of_gene == "protein-coding", ] #Filter out only protein coding genes for the annotation table
-big_table_filtered = big_table_filtered[big_table_filtered$`#tax_id.x` == "9606", ]
+big_table_filtered <- big_table[big_table$type_of_gene == "protein-coding", ] #Filter out only protein coding genes for the annotation table
+big_table_filtered <- big_table_filtered[big_table_filtered$`#tax_id.x` == "9606", ] # Filter out those genes with tax_id == "9606"
 View(head(big_table_filtered, 100))
   # ----- Merge duplicated genes -----
   merge_different_values = function(x) {
     str_c(unique(x), collapse = "; ")
   }
 
-  big_table_filtered_merged = big_table_filtered %>%
+  big_table_filtered_merged <- big_table_filtered %>%
     group_by(GeneID) %>% # Changed this from "GeneID" to "gene"
     summarize(across(everything(), ~ ifelse(n_distinct(.) == 1, as.character(first(.)), merge_different_values(.))))
   View(big_table_filtered_merged)
@@ -85,7 +86,7 @@ View(head(big_table_filtered, 100))
 
 
   
-# ----- Shiny app -----
+# ----- Shiny app -----  #
 shiny.maxRequestSize <- 50 * 1024^10
 
 # Define UI
@@ -100,7 +101,7 @@ ui <- fluidPage(
       downloadButton("download_filtered_table_data", "Download Filtered Table Data")
     ),
     mainPanel(
-      h3("Main Table"),
+      h3("PCGA Table"),
       DTOutput("main_table"),
       h3("Preview of Additional Table"),
       DTOutput("preview_table"),
@@ -114,8 +115,8 @@ ui <- fluidPage(
 server <- function(input, output) {
   
   # Load initial main table
-  gene2entrezID <- read_csv("/Users/Thacduong/Desktop/Shiny_app_gene_info-main/gene2entrezID_v2.csv")
-  big_table_filtered_merged <- read_csv("/Users/Thacduong/Desktop/Shiny_app_gene_info-main/big_table_filtered_merged_v5_052224.csv")
+  gene2entrezID <- read_csv(paste("https://raw.githubusercontent.com/thacduong/Shiny_app_gene_info/main/gene2entrezID_v2.csv"))
+  big_table_filtered_merged <- read_csv(paste("https://raw.githubusercontent.com/thacduong/Shiny_app_gene_info/main/big_table_filtered_merged_v5_052224.csv"))
   PCGA_table <- reactiveVal(big_table_filtered_merged)
   
   # ----- detect duplicated genes -----
