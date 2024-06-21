@@ -25,7 +25,7 @@ ui <- fluidPage(
       DTOutput("main_table"),
       h3("Preview of Additional Table"),
       DTOutput("preview_table"),
-      h3("Preview of Filtered Table (No EntrezID)"),
+      h3("Preview of gene with no EntrezID"),
       DTOutput("filtered_table_output")  # Add this line
     )
   )
@@ -34,32 +34,32 @@ ui <- fluidPage(
 # Define server logic
 
 # Please change to your designated version
-big_table_filtered_merged_path = "https://raw.githubusercontent.com/thacduong/Shiny_app_gene_info/main/ProteinCodingGeneAnnotation_20240620_v0.csv"
+PCGA_path = "https://raw.githubusercontent.com/thacduong/Shiny_app_gene_info/main/ProteinCodingGeneAnnotation_20240620_v0.csv"
 gene2entrezID_path = "https://raw.githubusercontent.com/thacduong/Shiny_app_gene_info/main/gene2entrezID_v2.csv"
 server <- function(input, output) {
   
   # Load initial main table
-  big_table_filtered_merged <- read_csv(big_table_filtered_merged_path)
+  PCGA <- read_csv(PCGA_path)
   gene2entrezID <- read_csv(gene2entrezID_path)
-  PCGA_table <- reactiveVal(big_table_filtered_merged)
+  PCGA_table <- reactiveVal(PCGA)
   
   # ----- detect duplicated genes -----
-  duplicated_genes = unique(big_table_filtered_merged$gene[duplicated(big_table_filtered_merged$gene)]) # Change the matrix to check for the duplicate values
+  duplicated_genes = unique(PCGA$gene[duplicated(PCGA$gene)]) # Change the matrix to check for the duplicate values
   
   if (length(duplicated_genes) > 0) {
-    print("Duplicated genes found in big_table_filtered_merged:")
+    print("Duplicated genes found in PCGA:")
     print(duplicated_genes)
   } else {
-    print("No duplicated genes found in big_table_filtered_merged")
+    print("No duplicated genes found in PCGA")
   }
   
-  duplicated_geneIDs = unique(big_table_filtered_merged$GeneID[duplicated(big_table_filtered_merged$GeneID)]) # Change the matrix to check for the duplicate values
+  duplicated_geneIDs = unique(PCGA$GeneID[duplicated(PCGA$GeneID)]) # Change the matrix to check for the duplicate values
   
   if (length(duplicated_geneIDs) > 0) {
-    print("Duplicated geneIDs found in big_table_filtered_merged:")
+    print("Duplicated geneIDs found in PCGA:")
     print(duplicated_geneIDs)
   } else {
-    print("No duplicated geneIDs found in big_table_filtered_merged")
+    print("No duplicated geneIDs found in PCGA")
   }
   
   # Render main table
